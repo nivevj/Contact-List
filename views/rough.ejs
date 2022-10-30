@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>
+            <%= title %>
+        </title>
+    </head>
+    <body>
+        <h1>Oh you found me!</h1>
+        <ul>
+            <% for(let i=1;i<6;i++){ %>
+            <li>
+                <%= i %>
+            </li>
+            <% } %>
+        </ul>
+        <% if(true){ %>
+            <h1>TRUE!</h1>
+        <% }else{ %>
+            <h1>FALSE</h1>
+        <% } %>
+    </body>
+</html>
